@@ -14,6 +14,7 @@ def update():
     window.after(1000,update)
 
 window = Tk()
+window.title("Clock")
 
 timeLabel = Label(window,font=('Arial',50),fg='#00ff00',bg='black')
 timeLabel.pack()
